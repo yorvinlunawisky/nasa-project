@@ -1,0 +1,77 @@
+# Dependencies
+node_modules
+
+# Production build
+dist
+build
+
+# Logs and databases
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+.env.production
+
+# Dependency directory
+bower_components
+
+# Editor files
+.idea
+*.iml
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Tests
+coverage
+
+# Temp files
+tmp
+temp/*
+
+# Yarn
+.yarn-cache
+yarn-error.log
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# next.js build output
+.next
+
+# nuxt.js build output
+.nuxt
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
